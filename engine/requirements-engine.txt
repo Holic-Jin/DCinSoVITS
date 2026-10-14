@@ -1,0 +1,10 @@
+# DCinSoVITS engine dependencies (installed on top of GPT-SoVITS requirements)
+torch==2.8.0
+torchaudio==2.8.0
+soundfile>=0.12
+demucs==4.0.1
+mlx-whisper>=0.4.2
+speechbrain>=1.0.3
+scikit-learn>=1.4
+huggingface_hub>=0.24
+resampy>=0.4.3

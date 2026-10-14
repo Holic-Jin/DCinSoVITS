@@ -1,0 +1,16 @@
+[DCinSoVITS 이용 고지 / Disclaimer]
+
+DCinSoVITS (제작: HolicJin)
+
+본 프로그램에는 어떠한 동영상도 포함되어 있지 않습니다.
+사용자가 불러온 영상과, 본 프로그램으로 작성된 모든 데이터(분리 음성, 모델 가중치, 합성 음성 등)의
+수집·이용·배포에 대한 책임은 전적으로 사용자 본인에게 있습니다.
+타인의 목소리는 권리자의 동의 없이 사용하지 마십시오.
+
+This program contains no video. The user is solely responsible for any video
+they load and for all data (separated audio, model weights, synthesized speech)
+created with this program. Do not use another person's voice without consent.
+
+本プログラムには動画は一切含まれていません。
+読み込んだ動画、および本プログラムで作成したすべてのデータ（分離音声・モデルの重み・合成音声など）の
+利用責任は、すべて利用者ご本人にあります。他人の声を権利者の同意なく使用しないでください。

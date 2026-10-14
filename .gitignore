@@ -1,0 +1,40 @@
+# Swift / SPM
+app/.build/
+.swiftpm/
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Built app (rebuild with scripts/build_app.sh)
+dist/
+*.app
+*.dSYM/
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+.idea/
+.vscode/
+
+# Models, jobs, audio, weights (never commit user data)
+*.wav
+*.mp3
+*.flac
+*.m4a
+*.mp4
+*.mkv
+*.ckpt
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.bin
+jobs/
