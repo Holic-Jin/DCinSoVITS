@@ -1,12 +1,30 @@
 # DCinSoVITS
 
-[한국어](README.md) | [English](README_en.md) | [日本語](README_jp.md)
+[한국어](README_kr.md) | [English](README_en.md) | [日本語](README_jp.md)
 
 動画から音声だけを取り出し、話者ごとに分け、選んだ話者の声で **GPT-SoVITS (v2) のファインチューニング重み** を作る macOS ネイティブアプリです。
 
 制作: **HolicJin**
 
-> ⚠️ **ご利用上の注意** — 本プログラムには動画は一切含まれていません。読み込んだ動画と、本プログラムで作成したすべてのデータ（分離音声、モデルの重み、合成音声など）の利用責任は、すべて利用者ご本人にあります。他人の声を権利者の同意なく使用しないでください。
+> ⚠️ **ご利用上の注意** — 本プログラムおよびリポジトリには **動画・有名人の声・生体サンプルデータは一切含まれていません**。読み込んだ動画と、本プログラムで作成したすべてのデータ（分離音声、モデルの重み、合成音声など）の利用責任は、すべて利用者ご本人にあります。他人の声を権利者の同意なく使用しないでください。
+
+## 責任ある利用
+
+本プロジェクトは **汎用のローカルツール** であり、[GitHub Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) および [GitHub Synthetic Media and AI Tools](https://docs.github.com/en/site-policy/acceptable-use-policies/github-synthetic-media-and-ai-tools) で禁止される用途向けに設計・宣伝・推奨されて **いません**。
+
+**権利と同意がある場合にのみ使用してください。** 自分が所有する、または権利者および話者から明示的な許可を得た音声／動画のみを学習・合成に用いてください。
+
+**禁止用途（例。網羅ではありません）:**
+
+- **児童性的搾取物（CSAM）** または未成年者を含む性的コンテンツの作成・助長
+- **同意なき親密画像（NCII）** の作成・助長
+- **テロ・暴力的過激主義** コンテンツの作成・助長
+- **詐欺、スキャム、フィッシング、ハラスメント** などの犯罪行為
+- 実在の人物・組織への **無断なりすまし（impersonation）**
+- 真正性について欺く目的の **欺瞞的な合成メディア（ディープフェイク）**
+- **十分な同意（または他の明確な法的根拠）なく** 他人の声を複製・配布する行為
+
+法令で求められる場合、または聞き手が誤解しうる場合は、AI 生成／クローン音声を合成物として明示してください。関連法令および GitHub の利用規約の遵守責任はすべて利用者にあり、メンテナは誤用を容認しません。
 
 ## 使い方
 
@@ -80,3 +98,7 @@ PYTHONPATH=engine ~/Library/Application\ Support/DCinSoVITS/venv/bin/python -m d
 ## 使用しているオープンソース
 
 GPT-SoVITS (MIT), Demucs (MIT), Whisper / mlx-whisper (MIT), SpeechBrain (Apache-2.0)
+
+## ライセンス
+
+MIT — [LICENSE](LICENSE) を参照。あわせて [DISCLAIMER.txt](DISCLAIMER.txt) も確認してください。

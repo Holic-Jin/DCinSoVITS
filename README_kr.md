@@ -1,10 +1,30 @@
 # DCinSoVITS
 
+[한국어](README_kr.md) | [English](README_en.md) | [日本語](README_jp.md)
+
 동영상에서 음성만 추출해 화자별로 분리하고, 선택한 화자의 목소리로 **GPT-SoVITS (v2) 파인튜닝 가중치**를 만드는 macOS 네이티브 앱입니다.
 
 제작: **HolicJin**
 
-> ⚠️ **이용 고지** — 본 프로그램에는 어떠한 동영상도 포함되어 있지 않습니다. 사용자가 불러온 영상과 본 프로그램으로 작성된 모든 데이터(분리 음성, 모델 가중치, 합성 음성 등)의 이용 책임은 전적으로 사용자 본인에게 있습니다. 타인의 목소리는 권리자의 동의 없이 사용하지 마십시오.
+> ⚠️ **이용 고지** — 본 프로그램과 저장소에는 **어떠한 동영상, 유명인 음성, 생체 샘플 데이터도 포함되어 있지 않습니다.** 사용자가 불러온 영상과 본 프로그램으로 작성된 모든 데이터(분리 음성, 모델 가중치, 합성 음성 등)의 이용 책임은 전적으로 사용자 본인에게 있습니다. 타인의 목소리는 권리자의 동의 없이 사용하지 마십시오.
+
+## 책임 있는 이용
+
+이 프로젝트는 **범용 로컬 도구**이며, [GitHub Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) 및 [GitHub Synthetic Media and AI Tools](https://docs.github.com/en/site-policy/acceptable-use-policies/github-synthetic-media-and-ai-tools)에서 금지하는 용도로 설계·홍보·권장되지 **않습니다**.
+
+**권리와 동의가 있는 경우에만 사용하세요.** 본인이 소유하거나, 권리자 및 화자로부터 명시적 허가를 받은 오디오/영상만 학습·합성에 사용해야 합니다.
+
+**금지 용도(예시, 완전하지 않음):**
+
+- **아동 성착취물(CSAM)** 또는 미성년자가 포함된 성적 콘텐츠의 생성·조장
+- **비동의 친밀 이미지(NCII)** 의 생성·조장
+- **테러·폭력 극단주의** 콘텐츠의 생성·조장
+- **사기, 스캠, 피싱, 괴롭힘** 등 범죄 행위
+- 실제 사람·조직에 대한 **무단 사칭(impersonation)**
+- 진위를 속일 목적의 **기만적 합성 미디어(딥페이크)**
+- **사전 동의(또는 다른 명확한 법적 근거) 없이** 타인의 목소리를 복제·배포하는 행위
+
+법령상 요구되거나 청취자가 오해할 수 있는 경우, AI 생성/복제 음성을 합성물로 표시하세요. 관련 법과 GitHub 약관 준수 책임은 전적으로 사용자에게 있으며, 유지관리자는 오용을 용인하지 않습니다.
 
 ## 사용 방법
 
@@ -78,3 +98,7 @@ PYTHONPATH=engine ~/Library/Application\ Support/DCinSoVITS/venv/bin/python -m d
 ## 사용한 오픈소스
 
 GPT-SoVITS (MIT), Demucs (MIT), Whisper / mlx-whisper (MIT), SpeechBrain (Apache-2.0)
+
+## 라이선스
+
+MIT — [LICENSE](LICENSE) 참고. [DISCLAIMER.txt](DISCLAIMER.txt)도 함께 확인하세요.
